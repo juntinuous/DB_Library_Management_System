@@ -30,7 +30,7 @@ CREATE TABLE BOOK_LOANS (
     Card_No INT NOT NULL,
     Date_Out DATE NOT NULL,
     Due_Date DATE NOT NULL,
-    Returned_Date DATE NOT NULL,
+    Returned_Date DATE,
     PRIMARY KEY (Book_Id, Branch_Id, Card_No),
     FOREIGN KEY (Book_Id) REFERENCES BOOK(Book_Id),
     FOREIGN KEY (Branch_Id) REFERENCES LIBRARY_BRANCH(Branch_Id),
