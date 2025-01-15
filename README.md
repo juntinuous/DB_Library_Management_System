@@ -59,31 +59,31 @@ The code is attached below.
 
 # GUI DB Management System
 
-###Task 1 : Checking our from GUI
+### Task 1 : Checking our from GUI
 ![image](https://github.com/user-attachments/assets/e06c3064-1085-4b27-9640-0ccfc715e21a)
 
 ![image](https://github.com/user-attachments/assets/b5131118-5697-49ec-9bbb-3f5bf7f5f518)
 ![image](https://github.com/user-attachments/assets/59294524-be85-4631-bbea-28884057c1f6)
 
-###Adding New Borrowers
+### Adding New Borrowers
 ![image](https://github.com/user-attachments/assets/68380982-f2ea-4167-b790-91822249b5f1)
 
 ![image](https://github.com/user-attachments/assets/023eb814-0869-4d3f-924b-00f7e6fa9309)
 
 
 
-###Adding New Books
+### Adding New Books
 ![image](https://github.com/user-attachments/assets/8e5d3fe2-7ce8-4370-8d49-f712ca2d04c5)
 ![image](https://github.com/user-attachments/assets/f1b99796-b722-4528-b3b6-c2e4b0a1412a)
 
-###Searching Book Loan History
+### Searching Book Loan History
 ![image](https://github.com/user-attachments/assets/fef2f040-564d-4dc6-9cf4-2868f2e0188d)
 
-###Checking which Book had been returned & if returned late, then many days the book returned late
+### Checking which Book had been returned & if returned late, then many days the book returned late
 ![image](https://github.com/user-attachments/assets/cbc0b124-3201-49a8-affd-9d10e93ce891)
 
 
-###Search for any book that has not return & late fee using BORROWER information
+### Search for any book that has not return & late fee using BORROWER information
 ![image](https://github.com/user-attachments/assets/07cf65d3-785b-4680-ae43-578a6ef8ad8a)
 ![image](https://github.com/user-attachments/assets/b2aaacb1-e547-45c4-930a-fa47be6133b3)
 
