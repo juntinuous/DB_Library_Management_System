@@ -29,3 +29,6 @@ Each book has multiple book copies ( has unique number, different from Book ID).
 Borrowers have maximum number of book they can borrow ( set by the library).
 Borrowers can borrow multiple books at a one time, but systemically will be checked out one by one. 
 Book id, and copy id definitely NOT SAME. 
+![image](https://github.com/user-attachments/assets/0aea62be-e149-4af5-922c-49704b37e596)
+
+
