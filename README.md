@@ -20,9 +20,8 @@ Managing the due date
 Managing Library Branch 
 
 
-**
-Assumption for ER Diagram : **
-Library has multiple Library Branches such as kids library, literature library, science library,,,, They could have same address, but have unique branchID. 
+#### Assumption for ER Diagram 
+The library has multiple Library Branches such as kids library, literature library, science library,,,, They could have same address, but have unique branchID. 
 Each book has Single main Publisher (author) 
 Each book has unique number ( also called as ISBN)
 Each book has multiple book copies ( has unique number, different from Book ID). 
@@ -35,14 +34,17 @@ Book id, and copy id definitely NOT SAME.
 ![image](https://github.com/user-attachments/assets/0aea62be-e149-4af5-922c-49704b37e596)
 
 
-**Task 1 **: inserting Book, Borrowers, Publisher, Library Data into DataBase
+##Task 1: inserting Book, Borrowers, Publisher, Library Data into DataBase
 
 **Python code**: insert_csv_to_sql.py
 We made a Python code inserting all the CSV files into our selectable database. 
 The code is attached below.
 **Purpose**: Insert all the CSV files to {selected}.DB 
+
 **How **this** works**: python code reads all the CVS files from the intended address in the counter and reads all files together through the Pandas library. 
+
 **Challenges**: we could insert one CSV file to db, one by one, for each copy. However, we did not know how to insert all the CSV file all together at a one time. So, we used the power of Pandas library, so that we could read all CSV files easily, and insert into our selected db at one time. 
+
 ![image](https://github.com/user-attachments/assets/1ff9f611-8c74-4533-9f0e-8c99302c7191)
 result:
 ![image](https://github.com/user-attachments/assets/413b0c95-10a1-45aa-a92b-89248c042ff8)
@@ -50,7 +52,9 @@ result:
 ![image](https://github.com/user-attachments/assets/50bcbc68-5aa9-49fe-bd38-a65d1d4b341c)
 
 
+## GUI DB Management System
 
+**Task 1 : inserting New Book using GUI**
 ![image](https://github.com/user-attachments/assets/e06c3064-1085-4b27-9640-0ccfc715e21a)
 
 ![image](https://github.com/user-attachments/assets/b5131118-5697-49ec-9bbb-3f5bf7f5f518)
