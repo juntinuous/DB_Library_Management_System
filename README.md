@@ -20,8 +20,8 @@ Managing the due date
 Managing Library Branch 
 
 
-
-Assumption for ER Diagram : 
+**
+Assumption for ER Diagram : **
 Library has multiple Library Branches such as kids library, literature library, science library,,,, They could have same address, but have unique branchID. 
 Each book has Single main Publisher (author) 
 Each book has unique number ( also called as ISBN)
@@ -29,6 +29,45 @@ Each book has multiple book copies ( has unique number, different from Book ID).
 Borrowers have maximum number of book they can borrow ( set by the library).
 Borrowers can borrow multiple books at a one time, but systemically will be checked out one by one. 
 Book id, and copy id definitely NOT SAME. 
+
+
+**ER Diagram:**
 ![image](https://github.com/user-attachments/assets/0aea62be-e149-4af5-922c-49704b37e596)
+
+
+**Task 1 **: inserting Book, Borrowers, Publisher, Library Data into DataBase
+
+**Python code**: insert_csv_to_sql.py
+We made a Python code inserting all the CSV files into our selectable database. 
+The code is attached below.
+**Purpose**: Insert all the CSV files to {selected}.DB 
+**How **this** works**: python code reads all the CVS files from the intended address in the counter and reads all files together through the Pandas library. 
+**Challenges**: we could insert one CSV file to db, one by one, for each copy. However, we did not know how to insert all the CSV file all together at a one time. So, we used the power of Pandas library, so that we could read all CSV files easily, and insert into our selected db at one time. 
+![image](https://github.com/user-attachments/assets/1ff9f611-8c74-4533-9f0e-8c99302c7191)
+result:
+![image](https://github.com/user-attachments/assets/413b0c95-10a1-45aa-a92b-89248c042ff8)
+![image](https://github.com/user-attachments/assets/d72a5743-c7cc-4443-a2d4-d63eff5d7e75)
+![image](https://github.com/user-attachments/assets/50bcbc68-5aa9-49fe-bd38-a65d1d4b341c)
+
+
+
+![image](https://github.com/user-attachments/assets/e06c3064-1085-4b27-9640-0ccfc715e21a)
+
+![image](https://github.com/user-attachments/assets/b5131118-5697-49ec-9bbb-3f5bf7f5f518)
+![image](https://github.com/user-attachments/assets/59294524-be85-4631-bbea-28884057c1f6)
+
+
+![image](https://github.com/user-attachments/assets/68380982-f2ea-4167-b790-91822249b5f1)
+
+![image](https://github.com/user-attachments/assets/023eb814-0869-4d3f-924b-00f7e6fa9309)
+
+![image](https://github.com/user-attachments/assets/8e5d3fe2-7ce8-4370-8d49-f712ca2d04c5)
+![image](https://github.com/user-attachments/assets/f1b99796-b722-4528-b3b6-c2e4b0a1412a)
+
+![image](https://github.com/user-attachments/assets/fef2f040-564d-4dc6-9cf4-2868f2e0188d)
+![image](https://github.com/user-attachments/assets/cbc0b124-3201-49a8-affd-9d10e93ce891)
+
+![image](https://github.com/user-attachments/assets/07cf65d3-785b-4680-ae43-578a6ef8ad8a)
+![image](https://github.com/user-attachments/assets/b2aaacb1-e547-45c4-930a-fa47be6133b3)
 
 
