@@ -6,12 +6,10 @@
 
 The following ER Diagrams, and Relational Database Schema contains 5 entities: BOOK, PUBLISHER, LIBRARY_BRANCH, BOOK_COPY, and BORROWER. Library Branches has a Book Copies, Book copies has book which published by Publisher, Book copies can be involved in Borrowed books which lent to Borrower. 
 
-Here are the basic functions that this Library DBMS can do: 
-
+**Here are the basic functions that this Library DBMS can do:**
 In order to add new books, the information of book’s publisher, book’s and book copies information will be saved to the database. 
-The book can be searched through Title, ISBM ( indicated as Book ID), and other options ( publishers, years)
-Manages the copies of book ( how many they have in total, availabilities)
-
+The book can be searched through Title, ISBM ( indicated as Book ID), and other options ( publishers, years)<br/>
+Manages the copies of book ( how many they have in total, availabilities)<br/>
 Managing the members<br/>
 Checking out book<br/>
 Returning book<br/>
@@ -53,19 +51,24 @@ result:
 ![image](https://github.com/user-attachments/assets/50bcbc68-5aa9-49fe-bd38-a65d1d4b341c)
 
 
-## GUI DB Management System
 
-**Task 1 : inserting New Book using GUI**
+
+
+# GUI DB Management System
+
+**Task 1 : Checking our from GUI**
 ![image](https://github.com/user-attachments/assets/e06c3064-1085-4b27-9640-0ccfc715e21a)
 
 ![image](https://github.com/user-attachments/assets/b5131118-5697-49ec-9bbb-3f5bf7f5f518)
 ![image](https://github.com/user-attachments/assets/59294524-be85-4631-bbea-28884057c1f6)
 
-
+**Adding New Borrowers**
 ![image](https://github.com/user-attachments/assets/68380982-f2ea-4167-b790-91822249b5f1)
 
 ![image](https://github.com/user-attachments/assets/023eb814-0869-4d3f-924b-00f7e6fa9309)
 
+
+**Adding New Books**
 ![image](https://github.com/user-attachments/assets/8e5d3fe2-7ce8-4370-8d49-f712ca2d04c5)
 ![image](https://github.com/user-attachments/assets/f1b99796-b722-4528-b3b6-c2e4b0a1412a)
 
